@@ -1,7 +1,7 @@
 - hosts: all
   tasks:
     - name: install python
-      vim:
+      yum:
         name: python-docker
         state: present
     - name: run docker container
