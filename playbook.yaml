@@ -10,6 +10,6 @@
         detach: yes
         interactive: yes
         tty: yes
-        name: test ansible
+        name: test_ansible
         state: present
         exposed_ports: 8085
