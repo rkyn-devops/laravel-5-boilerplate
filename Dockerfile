@@ -1,4 +1,4 @@
-FROM centos/latest
+FROM centos:latest
 RON yum install epel-release -y
 RUN rpm -i https://rpms.remirepo.net/enterprise/remi-release-7.rpm
 RUN yum install yum-utils
